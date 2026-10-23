@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="roll"
+version="1.0.0"
+displayName="Roll"
+description='''
+Press C (rebindable in Controls) to roll/dash about 3 blocks in the direction you move, on the ground or in mid-air. 2 charges.
+'''
+
+[[dependencies.roll]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.roll]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
